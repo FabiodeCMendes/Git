@@ -32,7 +32,81 @@
 </p>
 
 <b>#Workflow básico GitFlow Git</br>
+
+criar Projeto exemplo "Gitflow" - (Diretorio Principal)
+
+criar repositorio Principal
+>mkdir "PRJ"
+criar repositorio para desenvolvedor 1
+>mkdir dev1
+criar repositorio para desenvolvedor 2
+>mkdir dev2
+entrar no repositorio principar e iniciar o projeto
+>cd PRJ
+>git init --bare
+criar arquivo inicial do projeto 
+>vim historico.txt
+incluir uma linha no arquivo com uma informação qualquer ex. "projeto iniciado" e fechar
+confira a criação  com o comando abaixo
+>git status
+o arquivo estara como "untracked" = não "vigiado pelo git"
+
+para inclui-lo no projeto execute :
+>git add historico.txt
+o arquivo alterará o status para "to unstage" = "vigiado'
+agora confirme a alteração do projeto com o comando commit e inclua uma mensagem de controle
+>git commit -m "primeiro commit do projeto"
+
+o comando remote mostra para onde voce pode enviar o projeto alterado
+>git remote -v
+origin(fetch)
+origin(push)
+
+envio/atualize o projeto no branch master
+>git push origin master
+
+
+clonar o repositorio principal para o dev1
+>cd ..
+>cd dev1
+>git clone /git/PRJ/
+
+voce vai verificar que o projeto clonado ja contem o arquivo "historico.txt"
+edite o arquivo e inclua mais uma linha
+>vim historico.txt
+incluir uma linha nova linhano arquivo com uma informação qualquer ex. "Dev1 entrou no projeto" e feche e commit a alteração
+>git add historico.txt
+>git commit -m "dev1 iniciado"
+
+
+clonar o repositorio principal para o dev2
+>cd ..
+>cd dev2
+>git clone /git/PRJ/
+voce vai verificar que o projeto clonado ja contem o arquivo "historico.txt"
+edite o arquivo e inclua mais uma linha
+>vim historico.txt
+incluir uma linha nova linhano arquivo com uma informação qualquer ex. "Dev2 entrou no projeto" e feche e commit a alteração
+>git add historico.txt
+>git commit -m "dev2 iniciado"
+
+
+voltar para o dev1 verifique o status e o arquivo. vera que nao esta atualizado
+>cd ..
+>cd dev1
+>git status
+>vim historico.txt
+voce vai verificar que o arquivo não esta atualizado com o ultimo comit do dev2, 
+para atualizar importe o projeto novamente com o comando pull,as atualizaçoes do projeto sincronizadas.
+>git pull origin master
+
+após o pull verifique a sincronização:
+>git status
+>vim historico.txt
+
+
 #Ciclo de vida de um arquivo </b>
+ <img src="imgs/01.png" alt="git" width="500px">
 
 ex:<a href=" https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alterações-em-Seu-Repositório" target="_blank">💻 </a></br>
 
