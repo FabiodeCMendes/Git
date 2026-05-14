@@ -1,6 +1,46 @@
 
 <body>
     <h1>Git/GitHub</h1>
+
+<p>Git é um sistema de controle de versão, ou seja ele registra e gerencia todas as mudancas feitas dentro de um repositorio.</p>
+
+<img src="imgs/00.png" alt="git" width="500px">
+<a href="https://www.youtube.com/watch?v=XlV_8Q4Uli8&list=PLHWfNMxB2F4Gn--hEMkiJOlqOVr-lms8O" target="_blank">💻 </a></br>
+
+
+<p>Repositorio é o local onde os arquivos de um projeto são armazenados, podem ser local (seu computador) ou remoto (compartilhado github).</p>
+<a href="https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alterações-em-Seu-Repositório" target="_blank">💻 </a></br>
+
+
+<p>o gerenciamento é feito via execução de comandos que registram as mudanças.</p>
+
+
+<p>Branch é uma linha de desenvolvimento separada e independente, funcionando como um "ponteiro móvel" para um commit específico.</p>
+<a href="https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras" target="_blank">💻 </a></br>
+
+
+<p>A criação de branches ajuda a proteger o projeto principal e permite trabalhos em paralelos (ramificações) que posteriormente podem ser atualizados na branch principal se validados com sucesso.</p>
+
+
+<p>Principais conceitos/beneficios de uma branch:</p>
+
+<p>- Isolamento: Permite trabalhar em múltiplas funcionalidades simultaneamente sem conflitos entre equipes.
+- Ponteiro para Commit: Tecnicamente, uma branch não é uma cópia física dos arquivos, mas um ponteiro leve que aponta para o último commit realizado naquele "ramo".
+- Merge: Quando o trabalho na branch é finalizado, ele é integrado (mergeado) de volta ao ramo principal.
+- Rapidez: Criar e alternar entre branches no Git é quase instantâneo, tornando o fluxo de trabalho muito eficiente
+</p>
+
+#Workflow básico GitFlow Git
+#Ciclo de vida de um arquivo 
+
+ex:<a href=" https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alterações-em-Seu-Repositório" target="_blank">💻 </a></br>
+
+
+
+
+
+
+<h2>Comandos</h2> 
     <p>git config --global user.name "FabiodeCMendes"</br>
        git config --global user.email "fabio@email.com"</br>
        git config --global core.editor "vscode"</br>
@@ -40,7 +80,14 @@ Merge -
        git push -u origin main
 
     
-   <p>
+<p>
+
+
+   <h2>Bibliotecas:</h2>
+   <a href="https://git-scm.com/book/en/v2" target="_blank">Manual em Inglês </a></br>
+   <a href="https://git-scm.com/book/pt-pt/v2" target="_blank">Manual em Português </a></br>
+
+
     <h2>Vídeo recomendado</h2>
 </p> 
     <a href="https://www.youtube.com/watch?v=3-3gGSrWd00" target="_blank">
