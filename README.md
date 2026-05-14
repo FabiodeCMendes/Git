@@ -15,40 +15,39 @@
 <p>o gerenciamento é feito via execução de comandos que registram as mudanças.</p>
 
 
-<p><b>Branch</> é uma linha de desenvolvimento separada e independente, funcionando como um "ponteiro móvel" para um commit específico.</p>
+<p><b>Branch</b> é uma linha de desenvolvimento separada e independente, funcionando como um "ponteiro móvel" para um commit específico.</p>
 <img src="imgs/02.png" alt="git" width="500px">
 <a href="https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras" target="_blank">💻 </a></br>
 
 
 <p>A criação de branches ajuda a proteger o projeto principal e permite trabalhos em paralelos (ramificações) que posteriormente podem ser atualizados na branch principal se validados com sucesso.</p>
 
-
-<p>Principais conceitos/beneficios de uma branch:</p>
-
-<p>- Isolamento: Permite trabalhar em múltiplas funcionalidades simultaneamente sem conflitos entre equipes.
-- Ponteiro para Commit: Tecnicamente, uma branch não é uma cópia física dos arquivos, mas um ponteiro leve que aponta para o último commit realizado naquele "ramo".
-- Merge: Quando o trabalho na branch é finalizado, ele é integrado (mergeado) de volta ao ramo principal.
-- Rapidez: Criar e alternar entre branches no Git é quase instantâneo, tornando o fluxo de trabalho muito eficiente
+</br>
+<p><b>Principais conceitos/beneficios de uma branch:</b></p>
+</br></br>
+<p>- <b>Isolamento:</b> Permite trabalhar em múltiplas funcionalidades simultaneamente sem conflitos entre equipes.</br>
+- <b>Ponteiro para Commit:</b> Tecnicamente, uma branch não é uma cópia física dos arquivos, mas um ponteiro leve que aponta para o último commit realizado naquele "ramo".</br>
+- <b>Merge:</b>Quando o trabalho na branch é finalizado, ele é integrado (mergeado) de volta ao ramo principal.</br>
+- <b>Rapidez:</b> Criar e alternar entre branches no Git é quase instantâneo, tornando o fluxo de trabalho muito eficiente</br>
 </p>
 
-#Workflow básico GitFlow Git
-#Ciclo de vida de um arquivo 
+<b>#Workflow básico GitFlow Git</br>
+#Ciclo de vida de um arquivo </b>
 
 ex:<a href=" https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alterações-em-Seu-Repositório" target="_blank">💻 </a></br>
 
 
 
 
-
-
-<h2>Comandos</h2> 
-    <p>git config --global user.name "FabiodeCMendes"</br>
-       git config --global user.email "fabio@email.com"</br>
-       git config --global core.editor "vscode"</br>
-       git config --global core.editor "vim" </br>
-    </p> 
-       <img src="imgs/001.png" alt="git" width="500px">
-     
+<h2>Comandos</h2> </br>
+<p>
+    git config --global user.name "FabiodeCMendes"
+    git config --global user.email "fabio@email.com"
+    git config --global core.editor "vscode"
+    git config --global core.editor "vim" 
+  </p>    
+  <img src="imgs/001.png" alt="git" width="500px">
+  
 <p>
 PS = PowerShell
 PS C:\Users\fabio\git_clone\git\imgs>
