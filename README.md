@@ -37,76 +37,76 @@
 criar Projeto exemplo "Gitflow" - (Diretorio Principal)
 
 criar repositorio Principal
->mkdir "PRJ"</br>
-criar repositorio para desenvolvedor 1</br>
->mkdir dev1</br>
+<b>>mkdir "PRJ"</b></br>
+criar repositorio para desenvolvedor 1</b></br>
+<b>>mkdir dev1</b></br>
 criar repositorio para desenvolvedor 2</br>
->mkdir dev2</br>
+<b>>mkdir dev2</b></br>
 entrar no repositorio principar e iniciar o projeto
->cd PRJ
->git init --bare
+<b>>cd PRJ</b></br>
+<b>>git init --bare</b></br>
 criar arquivo inicial do projeto 
->vim historico.txt
+<b>>vim historico.txt</b></br>
 incluir uma linha no arquivo com uma informação qualquer ex. "projeto iniciado" e fechar
 confira a criação  com o comando abaixo
->git status
+<b>>git status</b></br>
 o arquivo estara como "untracked" = não "vigiado pelo git"
 
 para inclui-lo no projeto execute :
->git add historico.txt
+<b>>git add historico.txt</b></br>
 o arquivo alterará o status para "to unstage" = "vigiado'
 agora confirme a alteração do projeto com o comando commit e inclua uma mensagem de controle
->git commit -m "primeiro commit do projeto"
+<b>>git commit -m "primeiro commit do projeto"</b></br>
 
 o comando remote mostra para onde voce pode enviar o projeto alterado
->git remote -v
+<b>>git remote -v</b></br>
 origin(fetch)
 origin(push)
 
 envio/atualize o projeto no branch master
->git push origin master
+<b>>git push origin master</b></br>
 
 
 clonar o repositorio principal para o dev1
->cd ..
->cd dev1
->git clone /git/PRJ/
+<b>>cd ..</b></br>
+<b>>cd dev1</b></br>
+<b>>git clone /git/PRJ/</b></br>
 
 voce vai verificar que o projeto clonado ja contem o arquivo "historico.txt"
 edite o arquivo e inclua mais uma linha
->vim historico.txt
+<b>>vim historico.txt</b></br>
 incluir uma linha nova linhano arquivo com uma informação qualquer ex. "Dev1 entrou no projeto" e feche e commit a alteração
->git add historico.txt
->git commit -m "dev1 iniciado"
+<b>>git add historico.txt</b></br>
+>git commit -m "dev1 iniciado"</b></br>
 
 
 clonar o repositorio principal para o dev2
->cd ..
->cd dev2
->git clone /git/PRJ/
+<b>>cd ..</b></br>
+<b>>cd dev2</b></br>
+<b>>git clone /git/PRJ/</b></br>
 voce vai verificar que o projeto clonado ja contem o arquivo "historico.txt"
 edite o arquivo e inclua mais uma linha
->vim historico.txt
+<b>>vim historico.txt</b></br>
 incluir uma linha nova linhano arquivo com uma informação qualquer ex. "Dev2 entrou no projeto" e feche e commit a alteração
->git add historico.txt
+<b>>git add historico.txt</b></br>
 obs:
->git add . "(adiciona todos os arquivos pendentes de uma só vez)"
+<b>>git add . "(adiciona todos os arquivos pendentes de uma só vez)"</b></br>
 commit o projeto novamente
->git commit -m "dev2 iniciado"
+<b>>git commit -m "dev2 iniciado"</b></br>
 
 
 voltar para o dev1 verifique o status e o arquivo. vera que nao esta atualizado
->cd ..
->cd dev1
->git status
->vim historico.txt
+<b>>cd ..</b></br>
+<b>>cd dev1</b></br>
+<b>>git status</b></br>
+<b>>vim historico.txt</b></br>
 voce vai verificar que o arquivo não esta atualizado com o ultimo comit do dev2, 
 para atualizar importe o projeto novamente com o comando pull,as atualizaçoes do projeto sincronizadas.
->git pull origin master
+<b>>git pull origin master</b></br>
 
 após o pull verifique a sincronização:
->git status
->vim historico.txt
+<b>>git status</b></br>
+<b>>vim historico.txt</b></br>
 
 </br>
 <b>Branch e Merges</b></br>
