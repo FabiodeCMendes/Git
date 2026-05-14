@@ -32,79 +32,79 @@
 </p>
 
 </br>
-<h3><b>#Workflow básico GitFlow Git</h3></br>
+<h3><b>#Workflow básico GitFlow Git</b></h3></br>
 
-criar Projeto exemplo "Gitflow" - (Diretorio Principal)
+criar Projeto exemplo "Gitflow" - (Diretorio Principal)</br>
 
-criar repositorio Principal
+criar repositorio Principal</br>
 <b>>mkdir "PRJ"</b></br>
 criar repositorio para desenvolvedor 1</b></br>
 <b>>mkdir dev1</b></br>
 criar repositorio para desenvolvedor 2</br>
 <b>>mkdir dev2</b></br>
-entrar no repositorio principar e iniciar o projeto
+entrar no repositorio principar e iniciar o projeto</br>
 <b>>cd PRJ</b></br>
 <b>>git init --bare</b></br>
-criar arquivo inicial do projeto 
+criar arquivo inicial do projeto </br>
 <b>>vim historico.txt</b></br>
 incluir uma linha no arquivo com uma informação qualquer ex. "projeto iniciado" e fechar
-confira a criação  com o comando abaixo
+confira a criação  com o comando abaixo</br>
 <b>>git status</b></br>
-o arquivo estara como "untracked" = não "vigiado pelo git"
-
-para inclui-lo no projeto execute :
+o arquivo estara como "untracked" = não "vigiado pelo git"</br>
+</br>
+para inclui-lo no projeto execute :</br>
 <b>>git add historico.txt</b></br>
-o arquivo alterará o status para "to unstage" = "vigiado'
+o arquivo alterará o status para "to unstage" = "vigiado'</br>
 agora confirme a alteração do projeto com o comando commit e inclua uma mensagem de controle
 <b>>git commit -m "primeiro commit do projeto"</b></br>
 
-o comando remote mostra para onde voce pode enviar o projeto alterado
+o comando remote mostra para onde voce pode enviar o projeto alterado</br>
 <b>>git remote -v</b></br>
-origin(fetch)
-origin(push)
+origin(fetch)</br>
+origin(push)</br>
 
-envio/atualize o projeto no branch master
+envio/atualize o projeto no branch master</br>
 <b>>git push origin master</b></br>
 
 
-clonar o repositorio principal para o dev1
+clonar o repositorio principal para o dev1</br>
 <b>>cd ..</b></br>
 <b>>cd dev1</b></br>
 <b>>git clone /git/PRJ/</b></br>
 
-voce vai verificar que o projeto clonado ja contem o arquivo "historico.txt"
-edite o arquivo e inclua mais uma linha
+voce vai verificar que o projeto clonado ja contem o arquivo "historico.txt"</br>
+edite o arquivo e inclua mais uma linha</br>
 <b>>vim historico.txt</b></br>
-incluir uma linha nova linhano arquivo com uma informação qualquer ex. "Dev1 entrou no projeto" e feche e commit a alteração
+incluir uma linha nova linhano arquivo com uma informação qualquer ex. "Dev1 entrou no projeto" e feche e commit a alteração</br>
 <b>>git add historico.txt</b></br>
 >git commit -m "dev1 iniciado"</b></br>
 
 
-clonar o repositorio principal para o dev2
+clonar o repositorio principal para o dev2</br>
 <b>>cd ..</b></br>
 <b>>cd dev2</b></br>
 <b>>git clone /git/PRJ/</b></br>
-voce vai verificar que o projeto clonado ja contem o arquivo "historico.txt"
-edite o arquivo e inclua mais uma linha
+voce vai verificar que o projeto clonado ja contem o arquivo "historico.txt"</br>
+edite o arquivo e inclua mais uma linha</br>
 <b>>vim historico.txt</b></br>
-incluir uma linha nova linhano arquivo com uma informação qualquer ex. "Dev2 entrou no projeto" e feche e commit a alteração
+incluir uma linha nova linhano arquivo com uma informação qualquer ex. "Dev2 entrou no projeto" e feche e commit a alteração</br>
 <b>>git add historico.txt</b></br>
 obs:
 <b>>git add . "(adiciona todos os arquivos pendentes de uma só vez)"</b></br>
-commit o projeto novamente
+commit o projeto novamente</br>
 <b>>git commit -m "dev2 iniciado"</b></br>
 
 
-voltar para o dev1 verifique o status e o arquivo. vera que nao esta atualizado
+voltar para o dev1 verifique o status e o arquivo. vera que nao esta atualizado</br>
 <b>>cd ..</b></br>
 <b>>cd dev1</b></br>
 <b>>git status</b></br>
 <b>>vim historico.txt</b></br>
 voce vai verificar que o arquivo não esta atualizado com o ultimo comit do dev2, 
-para atualizar importe o projeto novamente com o comando pull,as atualizaçoes do projeto sincronizadas.
+para atualizar importe o projeto novamente com o comando pull,as atualizaçoes do projeto sincronizadas.</br>
 <b>>git pull origin master</b></br>
 
-após o pull verifique a sincronização:
+após o pull verifique a sincronização:</br>
 <b>>git status</b></br>
 <b>>vim historico.txt</b></br>
 
