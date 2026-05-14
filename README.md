@@ -2,20 +2,21 @@
 <body>
     <h1>Git/GitHub</h1>
 
-<p>Git é um sistema de controle de versão, ou seja ele registra e gerencia todas as mudancas feitas dentro de um repositorio.</p>
+<p><b>b>Git</b> é um sistema de controle de versão, ou seja ele registra e gerencia todas as mudancas feitas dentro de um repositorio.</p>
 
 <img src="imgs/00.png" alt="git" width="500px">
 <a href="https://www.youtube.com/watch?v=XlV_8Q4Uli8&list=PLHWfNMxB2F4Gn--hEMkiJOlqOVr-lms8O" target="_blank">💻 </a></br>
 
 
-<p>Repositorio é o local onde os arquivos de um projeto são armazenados, podem ser local (seu computador) ou remoto (compartilhado github).</p>
+<p><b>Repositorio</b> é o local onde os arquivos de um projeto são armazenados, podem ser local (seu computador) ou remoto (compartilhado github).</p>
 <a href="https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alterações-em-Seu-Repositório" target="_blank">💻 </a></br>
 
 
 <p>o gerenciamento é feito via execução de comandos que registram as mudanças.</p>
 
 
-<p>Branch é uma linha de desenvolvimento separada e independente, funcionando como um "ponteiro móvel" para um commit específico.</p>
+<p><b>Branch</> é uma linha de desenvolvimento separada e independente, funcionando como um "ponteiro móvel" para um commit específico.</p>
+<img src="imgs/02.png" alt="git" width="500px">
 <a href="https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras" target="_blank">💻 </a></br>
 
 
@@ -90,14 +91,13 @@ Merge -
 
     <h2>Vídeo recomendado</h2>
 </p> 
-    <a href="https://www.youtube.com/watch?v=3-3gGSrWd00" target="_blank">
-             💻COMO UTILIZAR O GITHUB COM VSCODE SEM ENROLAÇÃO</a></br>
-    <a href="https://www.youtube.com/watch?v=6DCmCjYRrLU" target="_blank">
-             💻Seu Primeiro Repositório no GitHub (e Como Usar com VS Code) </a></br>
-    <a href="https://www.youtube.com/watch?v=B2WKfie1Xtk&t=13s" target="_blank">
-             💻GitHub Copilot no VS Code!</a></br>
-
+    <a href="https://www.youtube.com/watch?v=3-3gGSrWd00" target="_blank">💻COMO UTILIZAR O GITHUB COM VSCODE SEM ENROLAÇÃO</a></br>
+    <a href="https://www.youtube.com/watch?v=6DCmCjYRrLU" target="_blank">💻Seu Primeiro Repositório no GitHub (e Como Usar com VS Code) </a></br>
+    <a href="https://www.youtube.com/watch?v=B2WKfie1Xtk&t=13s" target="_blank">💻GitHub Copilot no VS Code!</a></br>
+    <a href="https://www.youtube.com/watch?v=8U43SrcHCHU" target="_blank">💻Workflow básico GitFlow Git </a></br>
+    <a href="https://www.youtube.com/watch?v=iOJV_9JWqQ4&t=133s" target="_blank">💻 Estado dos arquivos no git </a></br>
              
+    <!-- <a href="" target="_blank">💻 </a></br> --> 
 
 </body>
 </html>
