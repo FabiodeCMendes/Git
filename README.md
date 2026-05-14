@@ -55,7 +55,7 @@ o arquivo estara como "untracked" = não "vigiado pelo git"</br>
 para inclui-lo no projeto execute :</br>
 <b>>git add historico.txt</b></br>
 o arquivo alterará o status para "to unstage" = "vigiado'</br>
-agora confirme a alteração do projeto com o comando commit e inclua uma mensagem de controle
+agora confirme a alteração do projeto com o comando commit e inclua uma mensagem de controle</br>
 <b>>git commit -m "primeiro commit do projeto"</b></br>
 
 o comando remote mostra para onde voce pode enviar o projeto alterado</br>
@@ -112,8 +112,8 @@ após o pull verifique a sincronização:</br>
 <b>Branch e Merges</b></br>
 <a href="https://youtu.be/3HAEriAk3-c?list=PLHWfNMxB2F4Gn--hEMkiJOlqOVr-lms8O" target="_blank">💻Branch e Merges </a></br>
 
-
-#Ciclo de vida de um arquivo </b>
+</br>
+#Ciclo de vida de um arquivo </b></br>
  <img src="imgs/01.png" alt="git" width="500px">
 
 ex:<a href=" https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alterações-em-Seu-Repositório" target="_blank">💻 </a></br>
@@ -121,7 +121,7 @@ ex:<a href=" https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alter
 
 
 
-
+</br>
 <h2>Comandos</h2> </br>
 
     git config --global user.name "FabiodeCMendes"
