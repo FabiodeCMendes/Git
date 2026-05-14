@@ -88,6 +88,9 @@ edite o arquivo e inclua mais uma linha
 >vim historico.txt
 incluir uma linha nova linhano arquivo com uma informação qualquer ex. "Dev2 entrou no projeto" e feche e commit a alteração
 >git add historico.txt
+obs:
+>git add . "(adiciona todos os arquivos pendentes de uma só vez)"
+commit o projeto novamente
 >git commit -m "dev2 iniciado"
 
 
@@ -104,11 +107,16 @@ após o pull verifique a sincronização:
 >git status
 >vim historico.txt
 
+</br>
+<b>Branch e Merges</b></br>
+<a href="https://youtu.be/3HAEriAk3-c?list=PLHWfNMxB2F4Gn--hEMkiJOlqOVr-lms8O" target="_blank">💻Branch e Merges </a></br>
+
 
 #Ciclo de vida de um arquivo </b>
  <img src="imgs/01.png" alt="git" width="500px">
 
 ex:<a href=" https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alterações-em-Seu-Repositório" target="_blank">💻 </a></br>
+
 
 
 
@@ -168,6 +176,7 @@ Merge -
     <a href="https://www.youtube.com/watch?v=6DCmCjYRrLU" target="_blank">💻Seu Primeiro Repositório no GitHub (e Como Usar com VS Code) </a></br>
     <a href="https://www.youtube.com/watch?v=B2WKfie1Xtk&t=13s" target="_blank">💻GitHub Copilot no VS Code!</a></br>
     <a href="https://www.youtube.com/watch?v=8U43SrcHCHU" target="_blank">💻Workflow básico GitFlow Git </a></br>
+    <a href="https://youtu.be/3HAEriAk3-c?list=PLHWfNMxB2F4Gn--hEMkiJOlqOVr-lms8O" target="_blank">💻Branch e Merges </a></br>
     <a href="https://www.youtube.com/watch?v=iOJV_9JWqQ4&t=133s" target="_blank">💻 Estado dos arquivos no git </a></br>
              
     <!-- <a href="" target="_blank">💻 </a></br> --> 
