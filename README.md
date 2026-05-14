@@ -2,7 +2,7 @@
 <body>
     <h1>Git/GitHub</h1>
 
-<p><b>b>Git</b> é um sistema de controle de versão, ou seja ele registra e gerencia todas as mudancas feitas dentro de um repositorio.</p>
+<p><b>Git</b> é um sistema de controle de versão, ou seja ele registra e gerencia todas as mudancas feitas dentro de um repositorio.</p>
 
 <img src="imgs/00.png" alt="git" width="500px">
 <a href="https://www.youtube.com/watch?v=XlV_8Q4Uli8&list=PLHWfNMxB2F4Gn--hEMkiJOlqOVr-lms8O" target="_blank">💻 </a></br>
@@ -40,12 +40,12 @@ ex:<a href=" https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alter
 
 
 <h2>Comandos</h2> </br>
-<p>
+
     git config --global user.name "FabiodeCMendes"
     git config --global user.email "fabio@email.com"
     git config --global core.editor "vscode"
     git config --global core.editor "vim" 
-  </p>    
+    
   <img src="imgs/001.png" alt="git" width="500px">
   
 <p>
