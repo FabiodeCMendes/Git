@@ -31,16 +31,17 @@
 - <b>Rapidez:</b> Criar e alternar entre branches no Git é quase instantâneo, tornando o fluxo de trabalho muito eficiente</br>
 </p>
 
-<b>#Workflow básico GitFlow Git</br>
+</br>
+<h3><b>#Workflow básico GitFlow Git</h3></br>
 
 criar Projeto exemplo "Gitflow" - (Diretorio Principal)
 
 criar repositorio Principal
->mkdir "PRJ"
-criar repositorio para desenvolvedor 1
->mkdir dev1
-criar repositorio para desenvolvedor 2
->mkdir dev2
+>mkdir "PRJ"</br>
+criar repositorio para desenvolvedor 1</br>
+>mkdir dev1</br>
+criar repositorio para desenvolvedor 2</br>
+>mkdir dev2</br>
 entrar no repositorio principar e iniciar o projeto
 >cd PRJ
 >git init --bare
