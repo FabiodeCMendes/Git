@@ -67,27 +67,30 @@ O comando git remote add origin serve para conectar o seu repositório local a u
 <p>criar repositorio para desenvolvedor 2</p></br>
 <b>>mkdir dev2</b></br>
 
-<p>criar branches (ramificações) para desenvolvimento em paralelo.</p></br>
+<h3>>criar branches (ramificações) para desenvolvimento em paralelo.</h3>
 
-<p>criar branch principal (será considerada a oficial do projeto para produção)</p></br>
-</b>>git branch PRJ</b></br>
+<p>criar branch principal (será considerada a oficial do projeto para produção)</p>
+<b>>git branch PRJ</b></br>
+
 <p>criar branch do desenvolverdor 1</p></br>
-</b>>git branch dev1</b></br>
-<p>criar branch do desenvolverdor 1</p></br>
-</b>>git branch dev2</b></br>
+<b>>git branch dev1</b></br>
+
+<p>criar branch do desenvolverdor 2</p></br>
+<b>>git branch dev2</b></br>
+
 <img src="imgs/gitflow/05.png" alt="git" width="500px">
 <p>Listar as branchs criadas</p></br>
 
 <p>Ver branches locais:</p></br>
-</b>>git branch</b></br>
+<b>>git branch</b></br>
 
 <p>Ver todas as branches (locais e remotas)</p></br>
-</b>>git branch -a</b></br>
+<b>>git branch -a</b></br>
 
 
 <p>para mudar o ponteiro para uma outra branch utilize o comando:</p></br>
-</b>>git checkout "NomeDaBranch"</b></br>
-</b>>git checkout dev1</b></br>
+<b>>git checkout "NomeDaBranch"</b></br>
+<b>>git checkout dev1</b></br>
 
 <img src="imgs/gitflow/03.png" alt="git" width="500px">
 <p></p></br>
