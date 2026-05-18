@@ -9,7 +9,7 @@
 
 
 <p><b>Repositorio</b> é o local onde os arquivos de um projeto são armazenados, podem ser local (seu computador) ou remoto (compartilhado github).</p>
-<a href="https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alterações-em-Seu-Repositório" target="_blank">💻 </a></br>
+<a href="https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alterações-em-Seu-Repositório" target="_blank">✏️fundamentos</a></br>
 
 
 <p>o gerenciamento é feito via execução de comandos que registram as mudanças.</p>
@@ -17,7 +17,7 @@
 
 <p><b>Branch</b> é uma linha de desenvolvimento separada e independente, funcionando como um "ponteiro móvel" para um commit específico.</p>
 <img src="imgs/02.png" alt="git" width="500px">
-<a href="https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras" target="_blank">💻 </a></br>
+<a href="https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras" target="_blank">✏️o que é branch </a></br>
 
 
 <p>A criação de branches ajuda a proteger o projeto principal e permite trabalhos em paralelos (ramificações) que posteriormente podem ser atualizados na branch principal se validados com sucesso.</p>
@@ -55,7 +55,13 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
 <b>"origin"</b>: É o nome padrão que o Git dá ao endereço do seu repositório remoto na internet.</br>
 <b>"master"</b>: É o nome da ramificação (branch) do seu projeto</br>
 
+<p>mostra a situacao do projeto/repositorio</br>
+<b>>git status</b></p></br>
 
+<p>inclui um arquivo para ser monitorado no projeto git (repositorio)</br>
+<b>>git add <nome_arquivo> </b></br>
+<p>inclui todos arquivo pendentes para ser monitorado no projeto git (repositorio)</br>
+<b>>git add .</b></p></br>
 
 <b>criar repositorio Principal</b></br>
 <b>>mkdir "PRJ"</b></br>
@@ -64,8 +70,11 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
 <p>criar repositorio para desenvolvedor 2</br>
 <b>>mkdir dev2</b></p></br>
 <img src="imgs/gitflow/02.png" alt="git" width="500px">
+</br>
 
 <h3>>criar branches (ramificações) para desenvolvimento em paralelo.</h3>
+
+<b>>git branch nome-da-branch</b></p></br>
 
 <p>criar branch principal (será considerada a oficial do projeto para produção)</br>
 <b>>git branch PRJ</b></p></br>
@@ -78,6 +87,7 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
 
 <img src="imgs/gitflow/05.png" alt="git" width="500px">
 
+
 <h3>Listar as branchs criadas</h3>
 
 <p>Ver branches locais:</br>
@@ -86,6 +96,9 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
 <p>Ver todas as branches (locais e remotas)</br>
 <b>>git branch -a</b></p></br>
 
+<p>deletar uma branch
+<b>>git branch -d nome-da-branch</b>
+<b>>git branch -d dev3 </b></p></br>
 
 <p>para mudar o ponteiro para uma outra branch utilize o comando:</br>
 <b>>git checkout "NomeDaBranch"</b></br>
@@ -93,6 +106,18 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
 
 <img src="imgs/gitflow/03.png" alt="git" width="500px">
 <p></p></br>
+
+<p>para criar e mudar o ponteiro para uma outra branch utilize o comando:</br>
+<b>>git checkout -b "NomeDaBranch"</b></br>
+<b>>git checkout -b devX</b></p><b>
+
+<b>git checkout</b>: Comando para alternar entre branches ou restaurar arquivos.
+<b>-b</b>: Flag que força a criação de uma nova branch.
+<b><NomeDaBranch></b>: O nome que você escolheu para a sua nova branch.
+<b>master</b>: A branch de origem (sua nova branch será uma cópia idêntica da master neste momento)
+
+
+
 
 
 
@@ -105,7 +130,45 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
 <b>>git reset --hard 584273c </b></p><br>
 
 
+atualiza a branch com a ultima versao oficial remota
+>git pull
+atualiza
+>git merge <branch_alterada_ok>
+envia a alteracao para o repositorio remoto
+>git push
+
+
 ----------------------------------------------------------------
+
+
+
+
+git fetch: Apenas baixa os metadados do servidor para você inspecionar.
+ importa commits para ramificações locais, enquanto o comando push exporta commits para ramificações remotas
+>git fetch origin
+https://git-scm.com/docs/git-fetch
+https://www.atlassian.com/br/git/tutorials/syncing/git-fetch
+
+O comando git push é usado para enviar o conteúdo do repositório local para um repositório remoto.
+>git push
+https://git-scm.com/docs/git-push
+https://www.atlassian.com/br/git/tutorials/syncing/git-push
+
+
+git pull: Executa um git fetch e, em seguida, aplica um git merge automaticamente, forçando a inclusão das alterações no seu código na mesma hora
+>git pull origin
+https://git-scm.com/docs/git-pull
+https://www.atlassian.com/br/git/tutorials/syncing/git-pull
+
+
+git Merge: Mesclagem é o jeito do Git de unificar um histórico bifurcado
+>git merge
+https://www.atlassian.com/br/git/tutorials/using-branches/git-merge
+
+https://www.atlassian.com/br/git/tutorials/using-branches/merge-conflicts
+https://www.atlassian.com/br/git/tutorials/using-branches/merge-strategy
+
+
 
 entrar no repositorio principar e iniciar o projeto</br>
 <b>>cd PRJ</b></br>
@@ -183,7 +246,7 @@ após o pull verifique a sincronização:</br>
 #Ciclo de vida de um arquivo </b></br>
  <img src="imgs/01.png" alt="git" width="500px">
 
-ex:<a href=" https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alterações-em-Seu-Repositório" target="_blank">💻 </a></br>
+ex:<a href=" https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alterações-em-Seu-Repositório" target="_blank">✏️fundamentos </a></br>
 
 
 

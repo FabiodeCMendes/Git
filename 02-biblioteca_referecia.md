@@ -6,8 +6,8 @@
 </head>
 <body>
    <h2>Bibliotecas:</h2>
-   <a href="https://git-scm.com/book/en/v2" target="_blank">Manual em Inglês </a></br>
-   <a href="https://git-scm.com/book/pt-pt/v2" target="_blank">Manual em Português </a></br>
+   <a href="https://git-scm.com/book/en/v2" target="_blank">✏️ Manual em Inglês </a></br>
+   <a href="https://git-scm.com/book/pt-pt/v2" target="_blank">✏️ Manual em Português </a></br>
             
 
 </body>
