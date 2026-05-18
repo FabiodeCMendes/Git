@@ -77,14 +77,19 @@ O comando git remote add origin serve para conectar o seu repositório local a u
 </b>>git branch dev2</b></br>
 
 <p>Listar as branchs criadas</p></br>
+
+<p>Ver branches locais:</p></br>
 </b>>git branch</b></br>
 
+<p>Ver todas as branches (locais e remotas)</p></br>
+</b>>git branch -a</b></br>
 
 
 <p>para mudar o ponteiro para uma outra branch utilize o comando:</p></br>
 </b>>git checkout "NomeDaBranch"</b></br>
 </b>>git checkout dev1</b></br>
 
+<img src="imgs/gitflow/03.png" alt="git" width="500px">
 <p></p></br>
 
 entrar no repositorio principar e iniciar o projeto</br>
