@@ -44,53 +44,51 @@ https://github.com/FabiodeCMendes/GitFlow.git
 Exemplo de utilização compartilhada do git/ Github para desenvolvimento de projetos em paralelo
 <img src="imgs/gitflow/01.png" alt="git" width="500px">
 <p>
-O comando git remote add origin serve para conectar o seu repositório local a um repositório na nuvem (como o GitHub ou GitLab). Ele cria um "atalho" chamado origin que aponta para a URL do seu projeto, permitindo que você envie (push) ou baixe (pull) códigos da interne </p></br>
-<b>>git remote add origin https://github.com/FabiodeCMendes/GitFlow.git</b></br>
+O comando <b>git remote add origin</b> serve para conectar o seu repositório local a um repositório na nuvem (como o GitHub ou GitLab). Ele cria um "atalho" chamado origin que aponta para a URL do seu projeto, permitindo que você envie (push) ou baixe (pull) códigos da interne </p></br>
+<p><b>>git remote add origin https://github.com/FabiodeCMendes/GitFlow.git</b></p></br>
 
+<p>O comando <b>git push --set-upstream origin master</b> envia seus arquivos do computador local para a nuvem e cria uma ligação permanente entre eles.</br>
+<b>>git push --set-upstream origin master</b></p></br>
 
-<p>O comando <b>git push --set-upstream origin master</b> envia seus arquivos do computador local para a nuvem e cria uma ligação permanente entre eles.</p></br>
-<b>>git push --set-upstream origin master</b></br>
-
-<b>"git push"<b>: Envia os seus commits locais para um repositório online (como o GitHub ou GitLab).</br>
-<b>"--set-upstream</b> (ou apenas -u)": Cria um vínculo (rastreamento) entre a sua branch atual e a branch remota.</br>
+<b>"git push"</b>: Envia os seus commits locais para um repositório online (como o GitHub ou GitLab).</br>
+<b>"--set-upstream </b> (ou apenas -u)": Cria um vínculo (rastreamento) entre a sua branch atual e a branch remota.</br>
 <b>"origin"</b>: É o nome padrão que o Git dá ao endereço do seu repositório remoto na internet.</br>
 <b>"master"</b>: É o nome da ramificação (branch) do seu projeto</br>
 
 
 
 <b>criar repositorio Principal</b></br>
-<img src="imgs/gitflow/02.png" alt="git" width="500px">
-
 <b>>mkdir "PRJ"</b></br>
-<p>criar repositorio para desenvolvedor 1</p></br>
-<b>>mkdir dev1</b></br>
-<p>criar repositorio para desenvolvedor 2</p></br>
-<b>>mkdir dev2</b></br>
+<p>criar repositorio para desenvolvedor 1</br>
+<b>>mkdir dev1</b></p></br>
+<p>criar repositorio para desenvolvedor 2</br>
+<b>>mkdir dev2</b></p></br>
+<img src="imgs/gitflow/02.png" alt="git" width="500px">
 
 <h3>>criar branches (ramificações) para desenvolvimento em paralelo.</h3>
 
-<p>criar branch principal (será considerada a oficial do projeto para produção)</p>
-<b>>git branch PRJ</b></br>
+<p>criar branch principal (será considerada a oficial do projeto para produção)</br>
+<b>>git branch PRJ</b></p></br>
 
-<p>criar branch do desenvolverdor 1</p></br>
-<b>>git branch dev1</b></br>
+<p>criar branch do desenvolverdor 1</br>
+<b>>git branch dev1</b></p></br>
 
-<p>criar branch do desenvolverdor 2</p></br>
-<b>>git branch dev2</b></br>
+<p>criar branch do desenvolverdor 2</br>
+<b>>git branch dev2</b></p></br>
 
 <img src="imgs/gitflow/05.png" alt="git" width="500px">
 <p>Listar as branchs criadas</p></br>
 
-<p>Ver branches locais:</p></br>
-<b>>git branch</b></br>
+<p>Ver branches locais:</br>
+<b>>git branch</b></p></br>
 
-<p>Ver todas as branches (locais e remotas)</p></br>
-<b>>git branch -a</b></br>
+<p>Ver todas as branches (locais e remotas)</br>
+<b>>git branch -a</b></p></br>
 
 
-<p>para mudar o ponteiro para uma outra branch utilize o comando:</p></br>
+<p>para mudar o ponteiro para uma outra branch utilize o comando:</br>
 <b>>git checkout "NomeDaBranch"</b></br>
-<b>>git checkout dev1</b></br>
+<b>>git checkout dev1</b></p></br>
 
 <img src="imgs/gitflow/03.png" alt="git" width="500px">
 <p></p></br>
