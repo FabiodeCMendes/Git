@@ -118,7 +118,6 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
 
 
 
-
 <p>verificar o historico das versões :</p></br>
 <b>>git reflog </b></br>
 <img src="imgs/gitflow/06.png" alt="git" width="500px">
