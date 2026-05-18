@@ -14,6 +14,9 @@
     <a href="https://youtu.be/3HAEriAk3-c?list=PLHWfNMxB2F4Gn--hEMkiJOlqOVr-lms8O" target="_blank">💻Branch e Merges </a></br>
     <a href="https://www.youtube.com/watch?v=iOJV_9JWqQ4&t=133s" target="_blank">💻 Estado dos arquivos no git </a></br>
     <a href="https://www.youtube.com/watch?v=kB5e-gTAl_s&t=2s" target="_blank">💻 ECurso de Git e Github COMPLETO 2025 [Iniciantes] + Desafios + Muita Prática </a></br>  
+   <a href="https://www.youtube.com/playlist?list=PL1gdHPtv45McbxgtmnprKKYNB6x3HmziH" target="_blank">💻 Curso básico de Git </a></br>  
+
+
 
 </body>
 </html>

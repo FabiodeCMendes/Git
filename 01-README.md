@@ -42,7 +42,7 @@ Diretorio gerado no github:
 https://github.com/FabiodeCMendes/GitFlow.git
 
 Exemplo de utilização compartilhada do git/ Github para desenvolvimento de projetos em paralelo
-<img src="imgs/gitflow/02.png" alt="git" width="500px">
+<img src="imgs/gitflow/01.png" alt="git" width="500px">
 <p>
 O comando git remote add origin serve para conectar o seu repositório local a um repositório na nuvem (como o GitHub ou GitLab). Ele cria um "atalho" chamado origin que aponta para a URL do seu projeto, permitindo que você envie (push) ou baixe (pull) códigos da interne </p></br>
 <b>>git remote add origin https://github.com/FabiodeCMendes/GitFlow.git</b></br>
@@ -62,10 +62,31 @@ O comando git remote add origin serve para conectar o seu repositório local a u
 <img src="imgs/gitflow/02.png" alt="git" width="500px">
 
 <b>>mkdir "PRJ"</b></br>
-criar repositorio para desenvolvedor 1</b></br>
+<p>criar repositorio para desenvolvedor 1</p></br>
 <b>>mkdir dev1</b></br>
-criar repositorio para desenvolvedor 2</br>
+<p>criar repositorio para desenvolvedor 2</p></br>
 <b>>mkdir dev2</b></br>
+
+<p>criar branches (ramificações) para desenvolvimento em paralelo.</p></br>
+
+<p>criar branch principal (será considerada a oficial do projeto para produção)</p></br>
+</b>>git branch PRJ</b></br>
+<p>criar branch do desenvolverdor 1</p></br>
+</b>>git branch dev1</b></br>
+<p>criar branch do desenvolverdor 1</p></br>
+</b>>git branch dev2</b></br>
+
+<p>Listar as branchs criadas</p></br>
+</b>>git branch</b></br>
+
+
+
+<p>para mudar o ponteiro para uma outra branch utilize o comando:</p></br>
+</b>>git checkout "NomeDaBranch"</b></br>
+</b>>git checkout dev1</b></br>
+
+<p></p></br>
+
 entrar no repositorio principar e iniciar o projeto</br>
 <b>>cd PRJ</b></br>
 <b>>git init --bare</b></br>
