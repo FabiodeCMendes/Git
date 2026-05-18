@@ -111,10 +111,10 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
 <b>>git checkout -b "NomeDaBranch"</b></br>
 <b>>git checkout -b devX</b></p><b>
 
-<b>git checkout</b>: Comando para alternar entre branches ou restaurar arquivos.
-<b>-b</b>: Flag que força a criação de uma nova branch.
-<b><NomeDaBranch></b>: O nome que você escolheu para a sua nova branch.
-<b>master</b>: A branch de origem (sua nova branch será uma cópia idêntica da master neste momento)
+      <b>git checkout</b>: Comando para alternar entre branches ou restaurar arquivos.
+      <b>-b</b>: Flag que força a criação de uma nova branch.
+      <b><NomeDaBranch></b>: O nome que você escolheu para a sua nova branch.
+      <b>master</b>: A branch de origem (sua nova branch será uma cópia idêntica da master neste momento)
 
 
 
