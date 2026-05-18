@@ -77,7 +77,8 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
 <b>>git branch dev2</b></p></br>
 
 <img src="imgs/gitflow/05.png" alt="git" width="500px">
-<p>Listar as branchs criadas</p></br>
+
+<h3>Listar as branchs criadas</h3>
 
 <p>Ver branches locais:</br>
 <b>>git branch</b></p></br>
@@ -99,11 +100,12 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
 <b>>git reflog </b></br>
 <img src="imgs/gitflow/06.png" alt="git" width="500px">
 
-<p>retornar/restaurar versao especifica do historico das versões :</p></br>
+<p>retornar/restaurar versao especifica do historico das versões :</br>
 <b>>git reset --hard "numero_do_ID"</b><br>
-<b>>git reset --hard 584273c </b><br>
+<b>>git reset --hard 584273c </b></p><br>
 
 
+----------------------------------------------------------------
 
 entrar no repositorio principar e iniciar o projeto</br>
 <b>>cd PRJ</b></br>
