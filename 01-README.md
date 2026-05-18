@@ -34,9 +34,33 @@
 </br>
 <h3><b>#Workflow básico GitFlow Git</b></h3></br>
 
-criar Projeto exemplo "Gitflow" - (Diretorio Principal)</br>
+criar Projeto exemplo "Gitflow" no gitHub- (Diretorio Principal)</br>
 
-criar repositorio Principal</br>
+nome : GitFlow
+
+Diretorio gerado no github:
+https://github.com/FabiodeCMendes/GitFlow.git
+
+Exemplo de utilização compartilhada do git/ Github para desenvolvimento de projetos em paralelo
+<img src="imgs/gitflow/02.png" alt="git" width="500px">
+<p>
+O comando git remote add origin serve para conectar o seu repositório local a um repositório na nuvem (como o GitHub ou GitLab). Ele cria um "atalho" chamado origin que aponta para a URL do seu projeto, permitindo que você envie (push) ou baixe (pull) códigos da interne </p></br>
+<b>>git remote add origin https://github.com/FabiodeCMendes/GitFlow.git</b></br>
+
+
+<p>O comando <b>git push --set-upstream origin master</b> envia seus arquivos do computador local para a nuvem e cria uma ligação permanente entre eles.</p></br>
+<b>>git push --set-upstream origin master</b></br>
+
+<b>"git push"<b>: Envia os seus commits locais para um repositório online (como o GitHub ou GitLab).</br>
+<b>"--set-upstream</b> (ou apenas -u)": Cria um vínculo (rastreamento) entre a sua branch atual e a branch remota.</br>
+<b>"origin"</b>: É o nome padrão que o Git dá ao endereço do seu repositório remoto na internet.</br>
+<b>"master"</b>: É o nome da ramificação (branch) do seu projeto</br>
+
+
+
+<b>criar repositorio Principal</b></br>
+<img src="imgs/gitflow/02.png" alt="git" width="500px">
+
 <b>>mkdir "PRJ"</b></br>
 criar repositorio para desenvolvedor 1</b></br>
 <b>>mkdir dev1</b></br>
@@ -111,6 +135,8 @@ após o pull verifique a sincronização:</br>
 </br>
 <b>Branch e Merges</b></br>
 <a href="https://youtu.be/3HAEriAk3-c?list=PLHWfNMxB2F4Gn--hEMkiJOlqOVr-lms8O" target="_blank">💻Branch e Merges </a></br>
+
+
 
 </br>
 #Ciclo de vida de um arquivo </b></br>
