@@ -115,7 +115,8 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
   **-b**: Flag que força a criação de uma nova branch
   **<NomeDaBranch>**: O nome que você escolheu para a sua nova branch.
   **master**: A branch de origem (sua nova branch será uma cópia idêntica da master neste momento)
-
+  
+</br>
 
 
 <p>verificar o historico das versões :</p></br>
