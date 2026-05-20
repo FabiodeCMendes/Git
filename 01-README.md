@@ -50,7 +50,7 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
 <p>O comando <b>git push --set-upstream origin master</b> envia seus arquivos do computador local para a nuvem e cria uma ligação permanente entre eles.</br>
 <b>>git push --set-upstream origin master</b></p></br>
 
-```markdown
+```md
 **"git push"** : Envia os seus commits locais para um repositório online (como o GitHub ou GitLab).
 **"--set-upstream (ou apenas -u)"** : Cria um vínculo (rastreamento) entre a sua branch atual e a branch remota.
 **"origin"** : É o nome padrão que o Git dá ao endereço do seu repositório remoto na internet.
