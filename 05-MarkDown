@@ -1,0 +1,124 @@
+#O que é MarkDown ?
+linguagem de padronização de marcação.
+
+Diferença entre Markdown e HTML
+
+
+
+Principais Recursos do Markdown
+Cabeçalhos
+Os cabeçalhos são criados usando o símbolo #. Dependendo do número de #, você define o nível do cabeçalho, de h1 a h6.
+
+# Cabeçalho 1
+## Cabeçalho 2
+### Cabeçalho 3
+Negrito e Itálico
+Para estilizar o texto em negrito, utilizamos dois asteriscos ** ou dois sublinhados __. Para itálico, usamos um asterisco * ou um sublinhado _.
+
+**Negrito**
+*Itálico*
+Listas
+Listas não ordenadas são criadas usando hífens -, asteriscos * ou sinais de mais +.
+
+- Item 1
+- Item 2
+  - Subitem 1
+  - Subitem 2
+Listas ordenadas utilizam números seguidos de um ponto ..
+
+1. Primeiro item
+2. Segundo item
+  1. Subitem
+  2. Subitem
+Links
+Para criar links, utilizamos colchetes [] para o texto do link e parênteses () para a URL.
+
+[Ramiro Lobo](https://www.ramirolobo.com/)
+Imagens
+As imagens são inseridas de forma similar aos links, mas precedidas de um ponto de exclamação !.
+
+![Descrição da imagem](URL_da_imagem)
+Blocos de Código
+Para destacar código em linha, usamos crases `. Para blocos de código, utilizamos três crases ```.
+
+Esta linha contém um ˋcódigoˋ.
+
+ˋˋˋ
+Esta é uma linha de código
+ˋˋˋ
+Citações
+Para adicionar uma citação, basta usar o símbolo >.
+
+> Este é um exemplo de citação.
+> Pode ter várias linhas.
+Tabelas
+Markdown também permite criar tabelas de maneira simples:
+
+| Coluna 1 | Coluna 2 |
+|----------|----------|
+| Linha 1  | Valor 1  |
+| Linha 2  | Valor 2  |
+Linhas Horizontais
+Para adicionar uma linha horizontal, use três ou mais hífens ---.
+
+---
+Blocos de Código com Sintaxe Destacada
+Para destacar a sintaxe em blocos de código, especifique a linguagem após as crases.
+
+```python
+def exemplo():
+    print("Olá, mundo!")
+```
+Aplicação no ChatGPT
+Ao utilizar Markdown no ChatGPT, é possível melhorar significativamente a clareza e a organização das respostas. Aqui estão alguns exemplos práticos de como o Markdown pode ser usado em diferentes contextos:
+
+Exemplo 1: Perguntas e Respostas Estruturadas
+**Pergunta:** Quais são os benefícios do Markdown?
+
+**Resposta:** 
+- Facilidade de uso e leitura
+- Conversão simples para HTML
+- Compatibilidade com diversas plataformas
+Exemplo 2: Tarefa de Programação
+# Tarefa de Programação
+
+Crie um script em Python que:
+
+1. Leia um arquivo de texto chamado `dados.txt`.
+2. Conte o número de linhas, palavras e caracteres no arquivo.
+3. Imprima esses valores no console.
+4. Salve os resultados em um arquivo chamado `resultado.txt` no formato:
+Exemplo 3: Pedido de Design Gráfico
+# Pedido de Design Gráfico
+
+Por favor, crie um banner para o nosso site com as seguintes especificações:
+
+- **Tamanho:** 1200x600 pixels
+- **Cor de Fundo:** #3498db
+- **Texto:** "Bem-vindo ao Nosso Site!"
+- **Fonte:** Arial, tamanho 36, negrito
+- **Imagem:** Inclua o logotipo da empresa no canto superior esquerdo
+
+**Exemplo Visual:**
+
+![Exemplo de Banner](URL_da_imagem_exemplo)
+
+**Notas:**
+- O banner deve ser simples e atraente.
+- Envie o arquivo final em formato PNG.
+Exemplo 4: Solicitação de Documentação Técnica
+# Solicitação de Documentação Técnica
+
+Por favor, documente a função `calcularMedia` no nosso projeto JavaScript. A documentação deve incluir:
+
+1. **Descrição:** O que a função faz.
+2. **Parâmetros:**
+   - `numeros` (Array de números): Lista de números para calcular a média.
+3. **Retorno:** Número representando a média dos valores no array.
+4. **Exemplo de Uso:**
+
+```javascript
+const numeros = [10, 20, 30, 40, 50];
+const media = calcularMedia(numeros);
+console.log(media); // Saída esperada: 30
+```

@@ -118,13 +118,43 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
   **master** : A branch de origem (sua nova branch será uma cópia idêntica da master neste momento).</br>
 
 
-<p>verificar o historico das versões :</p></br>
-<b>>git reflog </b></br>
+<p>verificar o historico das versões :</br>
+<b>>git reflog </b></p></br>
 <img src="imgs/gitflow/06.png" alt="git" width="500px">
 
 <p>retornar/restaurar versao especifica do historico das versões :</br>
 <b>>git reset --hard "numero_do_ID"</b><br>
 <b>>git reset --hard 584273c </b></p><br>
+
+
+----------------------------------------------------------------
+
+>git remote add origin ...
+
+>git push -u origin main
+
+>git pull
+
+>git clone https://github.com/CONTA/repositorio.git
+
+remove repositorio "CONTA"
+>rm -rf CONTA/
+
+<h3>Sincronização git e Github
+
+lista a conta/repositorio que esta em uso (apontada)
+>git remote -v
+(fetch) = 
+(push) = 
+
+
+>git remote rename origin upstream
+
+>git remote add origin git@github.com:CONTA/repositorio
+
+>
+
+----------------------------------------------------------------
 
 
 atualiza a branch com a ultima versao oficial remota
@@ -134,13 +164,16 @@ atualiza
 envia a alteracao para o repositorio remoto
 >git push
 
+<h4>pull request</h4>
 
-----------------------------------------------------------------
-
-----------------------------------------------------------------
-
+<h4>git ignore</h4>
+>touch .gitignore
 
 
+>git show
+
+
+cria abreviatuaras para comando
 
 
 git fetch: Apenas baixa os metadados do servidor para você inspecionar.
