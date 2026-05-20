@@ -30,10 +30,12 @@ Listas ordenadas utilizam números seguidos de um ponto ..
 2. Segundo item
   1. Subitem
   2. Subitem
+    2.1 subsubitem
+    2.2 subsubitem
 Links
 Para criar links, utilizamos colchetes [] para o texto do link e parênteses () para a URL.
 
-[Ramiro Lobo](https://www.ramirolobo.com/)
+[youtube](https://www.youtube.com/)
 Imagens
 As imagens são inseridas de forma similar aos links, mas precedidas de um ponto de exclamação !.
 
@@ -58,6 +60,8 @@ Markdown também permite criar tabelas de maneira simples:
 |----------|----------|
 | Linha 1  | Valor 1  |
 | Linha 2  | Valor 2  |
+
+
 Linhas Horizontais
 Para adicionar uma linha horizontal, use três ou mais hífens ---.
 
@@ -102,6 +106,7 @@ Por favor, crie um banner para o nosso site com as seguintes especificações:
 **Exemplo Visual:**
 
 ![Exemplo de Banner](URL_da_imagem_exemplo)
+
 
 **Notas:**
 - O banner deve ser simples e atraente.
