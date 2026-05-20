@@ -50,10 +50,12 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
 <p>O comando <b>git push --set-upstream origin master</b> envia seus arquivos do computador local para a nuvem e cria uma ligação permanente entre eles.</br>
 <b>>git push --set-upstream origin master</b></p></br>
 
+```
 **"git push"** : Envia os seus commits locais para um repositório online (como o GitHub ou GitLab).
 **"--set-upstream (ou apenas -u)"** : Cria um vínculo (rastreamento) entre a sua branch atual e a branch remota.
 **"origin"** : É o nome padrão que o Git dá ao endereço do seu repositório remoto na internet.
 **"master"**: É o nome da ramificação (branch) do seu projeto
+```
 
 <p>mostra a situacao do projeto/repositorio</br>
 <b>>git status</b></p></br>
@@ -111,12 +113,12 @@ O comando <b>git remote add origin</b> serve para conectar o seu repositório lo
 <b>>git checkout -b "NomeDaBranch"</b></br>
 <b>>git checkout -b devX</b></p></br>
 
-
+```
   **git checkout** : Comando para alternar entre branches ou restaurar arquivos.</br>
   **-b** : Flag que força a criação de uma nova branch.</br>
   **NomeDaBranch** : O nome que você escolheu para a sua nova branch.</br>
   **master** : A branch de origem (sua nova branch será uma cópia idêntica da master neste momento).</br>
-
+```
 
 <p>verificar o historico das versões :</br>
 <b>>git reflog </b></p></br>
