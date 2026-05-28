@@ -16,7 +16,7 @@
     <a href="https://www.youtube.com/watch?v=kB5e-gTAl_s&t=2s" target="_blank">💻 ECurso de Git e Github COMPLETO 2025 [Iniciantes] + Desafios + Muita Prática </a></br>  
    <a href="https://www.youtube.com/playlist?list=PL1gdHPtv45McbxgtmnprKKYNB6x3HmziH" target="_blank">💻 Curso básico de Git </a></br>  
 
-
+ <a href="https://www." target="_blank">💻/a></br>
 
 </body>
 </html>
