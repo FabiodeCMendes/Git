@@ -1,6 +1,10 @@
 > git clone https://github.com/FabiodeCMendes/Fabric.git
 > git remote add origin https://github.com/FabiodeCMendes/Fabric.git
 
+
+Verificar a versao do Git
+> git --version 
+
 Inicia o git
 >git init
 
@@ -15,6 +19,13 @@ Alternar entre branches(ramificações)ou criar novas branches.
 >git checkout main
 >git checkout dev1
 
+Em vez de digitar dois comandos separados para criar e ativar uma branch
+>git checkout -b nova-branch  
+ou   
+>git switch -c nova-branch  
+
+
+
 Mostra o status do branch
 >git status
 
@@ -26,6 +37,13 @@ Para Garantir que a branch local esta igual a remota:
 >git checkout master
 >git pull origin master
  
+envia sua branch local para o repositório remoto e cria um vínculo permanente entre elas .  
+`-u` significa upstream (rastreamento)  
+>git push -u origin minha-branca
+
+'Agora basta digitar apenas isso: (para os próximos envios,pois Git já sabe exatamente para onde enviar o código)
+>git push
+
 
 Cataloga um arquivo no git
 >git add nome-do-arquivo.txt
@@ -35,6 +53,9 @@ Cataloga varios arquivo no git
 
 Efetiva as alterações
 >git commit -m "Commit das alteracoes"
+
+Cataloga(add .) os arquivos e commita no mesmo comando.
+>git commit -am "Sua mensagem de commit"
 
 <img src="imgs/cmd/passo1.png" alt="fabric" width="500px">
 
@@ -86,8 +107,24 @@ Caso queira ver o histórico de mensagens de commits que existem em uma branch, 
 Use *git fetch* quando quiser ver o progresso da equipe, checar novas ramificações (branches) ou revisar o código antes de atualizar o seu.
 >git fetch origin
 
+### Fluxo de Trabalho de um Pull Request
 
+``Pull Request (PR)`` é uma proposta oficial para submeter alterações de código de uma branch secundária para a branch principal do projeto.  
 
+#### O ciclo de vida de um PR segue quatro etapas claras: 
 
+`Criação:`  
+    Você desenvolve uma nova funcionalidade em uma branch separada   
+    faz o git push para o servidor remoto.  
+`Abertura:` 
+    No GitHub, você clica em "New Pull Request".   
+    Ali, você escreve um resumo detalhado explicando o que foi alterado, os motivos da mudança e como testar.  
+`Revisão (Code Review):`  
+    Outros desenvolvedores da equipe examinam o seu código,   
+    fazem comentários linha por linha,   
+    sugerem melhorias ou apontam erros.  
+`Merge:`   
+    Após o código ser aprovado pelos revisores e passar nos testes automatizados, 
+    o criador ou o líder do projeto realiza o Merge (fusão), incorporando as alterações na branch principal (como a main ou master).
 
 
